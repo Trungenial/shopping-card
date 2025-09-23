@@ -10,10 +10,24 @@
     align-items: center;
 }
 
+.shop {
+    margin-right: 1rem;
+    cursor: pointer;
+    color: var(--color);
+    text-decoration: none;
+}
+
+.shop.active {
+    color: blue;
+}
+
 .cart {
     display: flex;
     align-items: center;
     position: relative;
+    gap: 1rem;
+    cursor: pointer;
+    color: var(--color);
 }
 
 .noCopy {
